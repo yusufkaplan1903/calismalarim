@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+
+    <form action="result.html"method="get">
+
+        <label for="fname">username:</label> <br>
+        <input type="text" id="fname" name="isim" placeholder="adiniz.."> <br>
+        <label for="sname">surname:</label> <br>
+        <input type="text" id="sname" name="soyisim"  placeholder="soyadiniz..">
+
+        <!--password-->
+
+        <div>
+            <label for="sifre">password</label><br>
+            <input type="password" name="parola" id="sifre" placeholder="sifre..">
+
+        </div>
+
+        <!--radio-->
+
+        <div>
+
+            <label for="">Gender</label> <br>
+            <label for="gender1" >male</label>
+            <input type="radio" name="cinsiyet" id="gender1" value="erkek">
+            <label for="gender2">female</label>
+            <input type="radio" name="cinsiyet" id="gender2" value="kadin">
+            <label for="gender3">other</label>
+            <input type="radio" name="cinsiyet" id="gender3" value="belirtilmemis">
+
+        </div>
+
+        <!--chckbox-->
+
+        <div>
+            <br>
+
+            <label>select fav animals</label> <br>
+
+            <input type="checkbox" name="animal_1" id="panda" value="panda" >
+            <label for="panda">Panda</label>
+
+            <input type="checkbox" name="animal" id="balik" value="balik">
+            <label for="balik">Balik</label>
+
+            <input type="checkbox" name="animal3" id="kedi" value="kedi" checked>
+            <label for="kedi">kedi </label>
+
+        
+        </div>
+        <!--number-->
+
+        <div>
+            <label for="age" >age</label> <br>
+            <input type="number" name="yaş" id="age" step="1" min="18" max="45">
+        </div>
+
+        <!--search-->
+        <div>
+            <label for="ara">search</label> <br>
+            <input type="search" name="arandi" id="ara">
+        </div>
+
+        <!--color-->
+
+        <div>
+
+            <label for="renk">color</label>
+            <input type="color" name="secilen_renk" id="renk">
+
+        </div>
+
+        <!--date-->
+
+        <div>
+
+            <label for="tarih">date</label>
+            <input type="date" name="secilen_tarih" id="tarih"> 
+
+        </div>
+
+        <!-- email -->
+
+        <div>
+
+            <label for="mail">email:</label>
+            <input type="email" name="mail_adresi" id="mail">
+
+
+        </div>
+
+        <!-- file -->
+         <div>
+
+        <label for="dosya">dosya sec</label>
+        <input type="file" id="dosya" name="secilen_dosya">
+
+          </div>
+
+          <!-- tel -->
+
+          <div>
+            <label for="tel">phone</label>
+            <input type="tel" name="telefon_numarasi" id="tel">
+
+
+          </div>
+
+          <!--select-->
+
+          <div>
+            <label for="tatli">Hangi tatliyi seversiniz</label>
+            <br>
+            <select name="secilen_tatli" id="tatli" size="7" multiple>
+                <option value="Sütlaç">Sütlaç</option>
+                <option value="Keşkül">Keşkül</option>
+                <option value="Süpangle">Süpangle</option>
+                <option value="Aşure">Aşure</option>
+                <option value="Magnolia">Magnolia</option>
+                <option value="Güllaç">Güllaç</option>
+            </select>
+        </div>
+
+
+       <!-- optgroup -->
+
+       <div>
+        <label for="seker">Hangi tatlıları seversiniz</label>
+        <br>
+        <select name="secilen_tatlı" id="seker" size="15" multiple>
+            <optgroup label="sütlü tatlılar">
+                <option value="Sütlaç">Sütlaç</option>
+                <option value="Keşkül">Keşkül</option>
+                <option value="Süpangle">Süpangle</option>
+                <option value="Aşure">Aşure</option>
+                <option value="Magnolia">Magnolia</option>
+                <option value="Güllaç">Güllaç</option>
+            </optgroup>
+
+            <optgroup label="şerbetli tatlılar" >
+                <option value="Baklava">Baklava</option>
+                <option value="Künefe">Künefe</option>
+                <option value="Katmer">Katmer</option>
+                <option value="tulumba">tulumba</option>
+                <option value="Afyon Kadayıfı">Afyon Kadayıfı</option>
+            </optgroup>
+
+            <optgroup label="çikolatalı tatlılar">
+                <option value="Waffle">Waffle</option>
+                <option value="Mousse">Mousse</option>
+                <option value="Pasta">Pasta</option>
+            </optgroup>
+        </select>
+    </div>
+
+    <!-- textarea -->
+    <div>
+        <label for="yorum">Yorum</label> <br>
+        <textarea name="girilen_yorum" id="yorum" style="resize: none; width: 50%; height: 100px;"></textarea>
+     </div>
+
+     
+
+
+
+
+
+
+                   
+        
+
+
+
+
+
+
+        <br><br><br>
+        <input type="reset" value="reset">
+ 
+        <input type="submit" value="send">
+
+
+    </form>
+
+
+
+</body>
+</html>
