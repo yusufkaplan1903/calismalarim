@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+
+}
+
+body{
+    /* margin: 0; */
+}
+.container {
+  background-color: aqua;
+  margin: 50px;
+  border: 1px solid black;
+ 
+}
+
+#baslik {
+    background-color: chocolate;
+    /* margin: 0; */
+
+    margin-top: 100px;
+    
+}
+
+#par1 {
+    border: 5px solid black;
+    background-color: green;
+    /* margin: 0; */
+    /* margin: 16px; */
+
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px; */
+
+    /* margin: 10px 20px 30px 40px; */
+
+    /* margin: 20px 40px 20px; */
+
+    /* margin: 20px 40px; */
+
+    margin-top: 10px;
+}
+
+#par2 {
+    background-color: magenta;
+    margin: 0;
+}
