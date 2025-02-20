@@ -1,0 +1,23 @@
+h1{
+    color: red;
+}
+
+#list{
+    border: 2px solid red;
+    list-style-type: none;
+}
+
+li{
+    background-color: teal;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.abc{
+    background-color: yellow;
+}
+
+#abc{
+    background-color: blue;
+    color: yellow;
+}

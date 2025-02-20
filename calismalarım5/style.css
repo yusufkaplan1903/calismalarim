@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Caveat:wght@400..700&display=swap');
+
+ul.languages{
+    list-style-type: none;
+    list-style-type: decimal;
+    list-style-type: georgian;
+    list-style-type: lower-greek;
+    list-style-type: lower-roman;
+    list-style-type: square;
+
+    list-style-position: inside;
+    padding: 10px;
+    list-style-type: none;
+ 
+}
+
+ul.languages li {
+    background-color:  lightgreen;
+    margin: 5px;
+    width: 250px;
+    border-radius: 20px;
+    padding-left: 20px;
+    border: 2px;
+    border-left: 8px solid gray;
+    font-family: "Quattrocento", serif;
+
+}
+
+ul.languages li:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+h2{
+    color: purple;
+    font-size: 2rem;
+}
+
+/* PSEUDO CLASSES */
+
+ul.pseudo li:first-child{
+    background-color: red;
+    font-family: "Bitter", serif;
+    font-weight: 900;
+    }
+    
+    ul.pseudo li:last-child{
+    background-color: blue;
+    font-family: "Caveat", serif;
+    color: yellow;
+    }
+    
+    ul.pseudo li:nth-child(3){
+        background-color: orange;
+        font-size: 30px;
+        font-weight: 700;
+
+    }
+    ul.pseudo li:nth-child(odd){
+        background-color: orangered;
+        width: 30½;
+        margin: auto;
+    }
+
+    div.pseudo2 p:hover{
+        background-color: blue
+        color(srgb red green blue)
+     }
+     div.pseudoo2 p:active{
+        background-color: red;
+        color: yellow;
+     }
+     input{
+        background-color: gray;
+        border: none;
+        color: wheat;
+     }
+     input:focus{
+        background-color: orange;
+        color:green;
+        border: none;
+     }

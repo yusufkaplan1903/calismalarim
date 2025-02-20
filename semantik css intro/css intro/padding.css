@@ -1,0 +1,25 @@
+.container{
+    background-color: darksalmon;
+    border: 0.5px solid black;
+
+}
+
+.div{
+    background-color: crimson;
+    width: 150px;
+    height: 150px;
+
+}
+.div2{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.div3{
+    background-color: fuchsia;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
