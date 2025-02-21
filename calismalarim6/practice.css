@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=DynaPuff:regular,500,600,700);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*! HEADER */
+
+header a img{
+    width: 60px;
+}
+
+header{
+    background-color: pink;
+    padding: 1rem;
+}
+
+.sign-in{
+    float:right;
+    padding-top: 2rem;
+    padding-right: 0.5rem;
+    color:#a82222
+}
+.sign-in a{
+  color:#a82222;
+  font-weight: 600;  
+  text-decoration: none;
+}
+
+/*! NAV STİCKY */
+
+.sticky{
+    background-color: orange;
+    padding: 2rem;
+    text-align:center;
+    position: sticky;
+    top:0;
+    z-index: 3;
+}
+
+.sticky a {
+    color:black;
+    text-decoration: none;
+    margin: 0.8rem;
+    font-family:"DynaPuff" ;
+}
+
+
+
+/*! NAV BANNER*/
+
+nav.banner img{
+    width: 100%;
+}
+
+nav.banner{
+
+    border:1px solid blue;
+    line-height: 3rem;
+    position: relative;
+}
+
+nav.banner .hero{
+
+    /* border:1px solid red; */
+    position: absolute;
+top:30%;
+left:10%;
+
+}
+
+
+h2{
+    color:white;
+    font-size:3rem;
+}
+
+h3{
+    color:red;
+    font-size: 1rem;
+}
+
+button{
+
+    padding:0.7rem;
+    border:none;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: pink;
+
+}
+
+.slack{
+    font-size: 2rem;
+    width: 3rem;
+    height:3rem;
+    background-color: red;
+    /* color:white; */
+    border-radius: 50%;
+    padding-top:3px;
+    text-align: center;
+    position:fixed;
+    bottom:2rem;
+    right:2rem;
+}
+.slack a{
+    color:white;
+}

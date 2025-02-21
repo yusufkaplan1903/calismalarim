@@ -1,0 +1,52 @@
+
+.box{
+    border:5px solid green;
+    margin-bottom: 4rem;
+    width: 20rem;
+    height: 4rem;
+}
+
+.box1{
+    /*! defaulttaki değeri visible, taşanları göster demek */
+    overflow:visible;
+}
+
+.box2{
+    /* taşanları gizle */
+    overflow: hidden;
+}
+.box2:hover{
+    
+    overflow: visible;
+}
+
+.box3{
+    /* y ekseninde scroll çıkar */
+    background-color: yellow;
+    overflow-y: scroll;
+}
+
+.box4{
+    /* otomatik olarak ihtiyaç neredeyse orada scroll çıkarır */
+    overflow: auto;
+}
+
+
+.box5{
+
+    overflow: auto;;
+    height: 14rem;
+}
+
+.box5::-webkit-scrollbar{
+    
+    width: 0;
+    height: 0;
+    /* visibility: hidden; */
+    /* display: none; */
+}
+
+
+
+
+
