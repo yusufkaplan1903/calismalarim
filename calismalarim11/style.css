@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #efefef;
+}
+.container{
+    width: 80%;
+    margin: 50px 10%;
+    border-radius: 30px;
+    background-color: #ececec;
+    box-shadow: 2px 2px 50px red
+
+}
+
+.header1{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    border-bottom: 2px solid #d9d9d9;
+}
+.header11{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.header11 img{
+    width: 50px;
+    height: 50px;
+    box-shadow: -1px 1px 5px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+select{
+    width: 175px;
+    height: 40px;
+    margin-top: 5px;
+    background-color: #d9d9d9;
+    border-color: rgba(0, 0, 0, 0.103);
+    border-radius: 5px;
+    padding: 5px;
+    font-family: "Bellota", system-ui;
+    font-weight: 600;
+    font-size: 10px;
+
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+    margin-left: 20px;
+    align-items: center;
+
+}
+.search input{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    padding: 10px;
+
+}
+.search img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.tel{
+    font-size: 10px;
+    font-family: "judson",serif;
+    font-weight: 600;
+    text-align: end;
+
+}
